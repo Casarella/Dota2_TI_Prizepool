@@ -1,0 +1,23 @@
+So, there have been a few people working on models for what the TI5 prizepool will wind up being, and I've previously thrown mine into the mix in the past. Now, I return with a few refinements and added features.
+
+If you read it last time, I had a toy model going on here: [LINK]
+
+The fits were arguably not good, and assumed the same periods of growth for TI5 that there were for TI4; this, of course, turned out to be a bad approximation for a few reasons, one being the number (and timing) of the release of the Immortals.
+
+I've went back through some things and added in fits that mimic what I did earlier, but I've taken much more care to extract what happened when the Immortals were released last year. This time around, I still fit the 'hump' to a Log function, but also made sure to account for the currently existing 'background' that we see from the initial sale of the compendiums (in TI4's case, this was Days 0 through 21). Without boring you too much with the exact parameters, the piece-wise fits I made for the TI4 prizepool are shown here: [LINK]
+
+I've allowed some flexibility in when the Immortals will drop, but I kept the overall effect that they bring to the prizepool. The effect is, admittedly, a bit black-box-like, but without adding a ton of independent parameters, we can at least place a toy-model again on what's going to happen. 
+
+So to recap, I have assumed that the effect that the Immortal drops will have on the prizepool are directly proportional from what they did last year, keeping in line with the current trend for TI5. (If you're interested, the functional form of the fit is a * Log[x-c] + b.) In this case, the parameter 'a' in the Immortal 'hump' is ~16% that of 'a' in the initial period of growth; this is purely phenomenological, so I don't have an explanation as why it's that particular value.
+
+Here are the current trends that I have now, with 3 possible scenarios when the Immortal II sets will be released (gold -> Day 14, red -> Day 21, green -> Day 28, indigo -> Day 35):
+
+[LINK]
+
+Note, these are very short term extrapolations, but they're really just a snapshot as to what we might expect to happen immediately after the second set of Immortals are released. Also, in this plot, the blue line is the toy model that has been posted assuming that there is *no* effect from the release of the Immortals, which isn't really realistic at this case. I put it in to help guide the eye on how the prizepool should change. I'm still working out another problem with, again, the long-term effects (i.e. what should we expect at Day 100), and also what happens when the third set of Immortals come out. I'll admit, I'm not sure what's going to happen here, since I can't reliably say that the third set will have as much of an effect as the second set. Regardless, you can see that the third set should be reached with the 'boost' that we get from the second set, even if they are released this afternoon.
+
+I have also included the variance from the fit and actual data, which fluctuates between about +/-200 thousand dollars.
+
+[LINK]
+
+At its minimum though, the final TI5 prize pool is trending towards ~12.7953 million dollars. 
